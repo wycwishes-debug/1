@@ -1,0 +1,69 @@
+:root {
+    background: #050505;
+    color: #00ffea;
+}
+
+#title {
+    padding: 1 2;
+    background: linear-gradient(90deg, #0a0a0a, #111);
+    color: #00ffea;
+    text-style: bold;
+}
+
+#layout {
+    height: 1fr;
+}
+
+#watchlist {
+    width: 30%;
+    border: tall #00ff00;
+}
+
+#main-area {
+    width: 70%;
+    border: tall #ff00ff;
+}
+
+#top {
+    background: #0f0f0f;
+    padding: 1;
+    border-bottom: heavy #222;
+}
+
+#sparkline {
+    color: #00ff00;
+    text-style: bold;
+}
+
+#price {
+    padding-left: 2;
+    color: #ffcc00;
+    text-style: bold;
+}
+
+#newsfeed {
+    height: 1fr;
+    color: #eeeeee;
+}
+
+#newsfeed .datatable--cursor {
+    background: #111111;
+}
+
+#analysis {
+    height: 1fr;
+    border-top: solid #222;
+    color: #dddddd;
+}
+
+#command-bar {
+    background: #0b0b0b;
+    padding: 0 1;
+    border-top: tall #222;
+}
+
+Input {
+    background: #111;
+    border: solid #333;
+    color: #00ffea;
+}
